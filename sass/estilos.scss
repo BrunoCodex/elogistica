@@ -1,0 +1,28 @@
+$color-uno: #4a90e2;
+
+*{
+	box-sizing: border-box;
+}
+
+.main-content{
+	display: flex;
+	.section-info{
+		width: 50%;
+		height: 100vh;
+		background-color: red;
+		padding: 25px 50px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		header{
+			img{
+				width: 150px;
+			}
+		}
+	}
+	.section-choose{
+		width: 50%;
+		height: 100vh;
+		background-color: green;
+	}
+}
