@@ -4,6 +4,60 @@
   font-family: 'K2D', sans-serif;
 }
 
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/landing/icomoon.eot?3wyinz");
+  src: url("../fonts/landing/icomoon.eot?3wyinz#iefix") format("embedded-opentype"), url("../fonts/landing/icomoon.ttf?3wyinz") format("truetype"), url("../fonts/landing/icomoon.woff?3wyinz") format("woff"), url("../fonts/landing/icomoon.svg?3wyinz#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-linkedin-square:before {
+  content: "\e905";
+}
+
+.icon-pinterest-square:before {
+  content: "\e900";
+}
+
+.icon-youtube-square:before {
+  content: "\e901";
+}
+
+.icon-twitter-square:before {
+  content: "\e902";
+}
+
+.icon-facebook-square:before {
+  content: "\e903";
+}
+
+.icon-arrow-right-circle:before {
+  content: "\e904";
+}
+
+.icon-arrow_forward:before {
+  content: "\e5c8";
+}
+
+.icon-perm_phone_msg:before {
+  content: "\e8a8";
+}
+
 .main-content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,7 +65,7 @@
 }
 
 .main-content .section-info {
-  width: 50%;
+  width: 40%;
   height: 100vh;
   /*background-color: red;*/
   padding: 25px 50px;
@@ -36,7 +90,7 @@
 }
 
 .main-content .section-info .content-text .texto h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin: 0;
 }
 
@@ -88,8 +142,61 @@
   align-items: center;
 }
 
+.main-content .section-info .contact-info .network a {
+  color: #b7bcbf;
+  text-decoration: none;
+  margin: 0 10px 0 0;
+  font-size: 1.2rem;
+}
+
+.main-content .section-info .contact-info .network a span {
+  -webkit-transition: all .5s ease-out;
+  -o-transition: all .5s ease-out;
+  transition: all .5s ease-out;
+}
+
+.main-content .section-info .contact-info .network a .icon-facebook:hover {
+  color: #3b5999;
+}
+
+.main-content .section-info .contact-info .network a .icon-twitter:hover {
+  color: #55acee;
+}
+
+.main-content .section-info .contact-info .network a .icon-youtube:hover {
+  color: #cd201f;
+}
+
+.main-content .section-info .contact-info .network a .icon-pinterest:hover {
+  color: #bd081c;
+}
+
+.main-content .section-info .contact-info .network a .icon-linkedin:hover {
+  color: #0077B5;
+}
+
+.main-content .section-info .contact-info .other-data a {
+  color: #b7bcbf;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-out;
+  -o-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+
+.main-content .section-info .contact-info .other-data a:hover {
+  color: #4a90e2;
+}
+
+.main-content .section-info .contact-info .other-data select {
+  margin: 0 0 0 25px;
+  border: none;
+  outline: none;
+  color: #b7bcbf;
+  cursor: pointer;
+}
+
 .main-content .section-choose {
-  width: 50%;
+  width: 60%;
   height: 100vh;
   background-color: green;
 }
